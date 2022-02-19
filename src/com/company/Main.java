@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        FileReader fr1 = new FileReader("src/file1.txt");
-        FileReader fr2 = new FileReader("src/file2.txt");
+        FileReader fr1 = new FileReader("file1.txt");
+        FileReader fr2 = new FileReader("file2.txt");
 
         Scanner sc1 = new Scanner(fr1);
         float x = Float.parseFloat(sc1.next());
